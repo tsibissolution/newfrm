@@ -22,9 +22,12 @@ const api = axios.create({
 
 
 const plantSeed = [
-  {"userGardensIDs": "694d05d5868cd847c642d56f","userBedsIDs": "6954f13d26c34db4967aed14","seedIDs": "673e0c942c7bfd708b35244d","growthTime": 120000},
+  {"userGardensIDs": "694d05d5868cd847c642d56f","userBedsIDs": "6954f13d26c34db4967aed14","seedIDs": "67dc227a59b878f195998e60","growthTime": 28140000},
   {"userGardensIDs": "694d05d5868cd847c642d56f","userBedsIDs": "694cf65c7838d497137d99da","seedIDs": "673e0c942c7bfd708b35245f","growthTime": 240000},  
   {"userGardensIDs": "694d05d5868cd847c642d56f","userBedsIDs": "694d078926c34db496e86725","seedIDs": "673e0c942c7bfd708b35245f","growthTime":240000}, 
+  {"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"694d05d5868cd847c642d56b","seedIDs":"673e0c942c7bfd708b35244d", "growthTime":120000},
+  {"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"6950e1fe868cd847c658079a","seedIDs":"67dc227a59b878f195998f14", "growthTime":12900000},
+  {"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"69500362f3dfb9a4b70b13ef","seedIDs":"67dc227a59b878f195998dac" , "growthTime":1920000}
 
  
 ];
@@ -163,4 +166,5 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
 
