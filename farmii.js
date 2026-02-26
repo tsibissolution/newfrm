@@ -32,11 +32,11 @@ const plantSeed = [
 
 {"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"697e5c2d07140e31d022414c","seedIDs":"673e0c942c7bfd708b35244d" ,"growthTime": 120000},
 
-{{"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"69a0724e2a1553ec363f25a6","seedIDs":"67dc227a59b878f195998d76" ,"growthTime": 19680000},
+{"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"69a0724e2a1553ec363f25a6","seedIDs":"67dc227a59b878f195998d76" ,"growthTime": 19680000},
 
 {"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"697e5ca307140e31d0226337","seedIDs":"673e0c942c7bfd708b352423" ,"growthTime": 1020000},
 {"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"697e5c4451f2ac78b3acdf95","seedIDs":"67dc227a59b878f195998db2","growthTime": 1920000},
-{"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"6950e1fe868cd847c658079a","seedIDs":"67dc227a59b878f195998d8e" ,"growthTime": 780000}
+{"userGardensIDs":"694d05d5868cd847c642d56f","userBedsIDs":"6950e1fe868cd847c658079a","seedIDs":"67dc227a59b878f195998d8e" ,"growthTime": 780000},
 
  
 ];
@@ -175,6 +175,7 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
 
 
 
